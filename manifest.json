@@ -1,0 +1,238 @@
+{
+    "name" : "双桥融媒",
+    "appid" : "__UNI__8BA0910",
+    "description" : "双桥融媒",
+    "versionName" : "1.0.4",
+    "versionCode" : 104,
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        /* 模块配置 */
+        "modules" : {
+            "Share" : {},
+            "Geolocation" : {},
+            "Payment" : {},
+            "OAuth" : {},
+            "LivePusher" : {},
+            "VideoPlayer" : {},
+            "iBeacon" : {},
+            "Maps" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.BLUETOOTH\"/>",
+                    "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.BLUETOOTH\"/>",
+                    "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\"/>"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ]
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "capabilities" : {
+                    "entitlements" : {
+                        "com.apple.developer.associated-domains" : [ "applinks:app.beta.java.crmeb.net" ]
+                    }
+                },
+                "privacyDescription" : {
+                    "NSLocationWhenInUseUsageDescription" : "根据客户地理位置推荐最近门店",
+                    "NSPhotoLibraryUsageDescription" : "上传用户头像保存分享海报",
+                    "NSPhotoLibraryAddUsageDescription" : "上传用户头像保存分享海报",
+                    "NSLocationAlwaysAndWhenInUseUsageDescription" : "根据客户地理位置推荐最近门店",
+                    "NSLocationAlwaysUsageDescription" : "根据客户地理位置推荐最近门店",
+                    "NSCameraUsageDescription" : "上传用户头像保存分享海报"
+                },
+                "idfa" : false,
+                "dSYMs" : false
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "ad" : {},
+                "geolocation" : {
+                    "system" : {
+                        "__platform__" : [ "android" ]
+                    }
+                },
+                "oauth" : {},
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "d8c7e729c11f6edb2a793237faa3004b",
+                        "appkey_android" : "d8c7e729c11f6edb2a793237faa3004b"
+                    }
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "1",
+                        "UniversalLinks" : "https://app.java.crmeb.net/"
+                    }
+                },
+                "payment" : {
+                    "weixin" : {
+                        "__platform__" : [ "android" ],
+                        "appid" : "1",
+                        "UniversalLinks" : "https://app.java.crmeb.net/"
+                    }
+                }
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "androidStyle" : "default",
+                "android" : {
+                    "xxhdpi" : "D:/360MoveData/Users/Administrator/Desktop/幸福双桥app/1080-1882.png",
+                    "xhdpi" : "D:/360MoveData/Users/Administrator/Desktop/幸福双桥app/720-1242.png",
+                    "hdpi" : "D:/360MoveData/Users/Administrator/Desktop/幸福双桥app/480-762.png"
+                },
+                "useOriginalMsgbox" : true
+            }
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "1",
+        "setting" : {
+            "urlCheck" : true,
+            "minified" : true,
+            "postcss" : true,
+            "es6" : true
+        },
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "你的位置信息将用于和门店的距离长度"
+            }
+        },
+        // "plugins" : {
+        //     "chat" : {
+        //         "version" : "1.0.8",
+        //         "provider" : "wx738958e0f4c894f9"
+        //     }
+        // },
+        // "sitemapLocation" : "sitemap.json",
+        "usingComponents" : true
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true,
+        "appid" : "1",
+        "setting" : {
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true
+        }
+    },
+    "h5" : {
+        "devServer" : {
+            "https" : false,
+            "proxy" : {
+                "/dev-api" : {
+                    //'http://192.168.0.109:8080'
+                    //http://47.93.219.189:8888
+                    //http://xfsq.blockylink.com/
+                    "target" : "http://localhost:8081",
+                    "changeOrigin" : true,
+                    "secure" : false,
+                    "pathRewrite" : {
+                        "^/dev-api" : "/"
+                    }
+                }
+            }
+        },
+        "router" : {
+            "mode" : "history",
+            "base" : ""
+        },
+        "domain" : "",
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "77HBZ-MLZWU-FD6VG-BEW5X-COJXV-SVF5L"
+                }
+            }
+        },
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : true
+            }
+        },
+        "async" : {
+            "timeout" : 200000
+        },
+        "title" : "幸福双桥"
+    },
+    "plus" : {
+        "statusbar" : {
+            "immersed" : true
+        }
+    },
+    "locale" : "zh-Hans"
+}

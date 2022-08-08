@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=zh-CN>
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="iconfont.css">
+		
+		<style>
+			i{font-size:40px;width:50px;height:50px;float:left}
+		</style>
+	
+		
+    </head>
+    <body>
+		<div id="ul1"></div>
+		<i class="iconfont icon-s-pingguo"></i>
+    </body>
+	
+	<script type="text/javascript">
+	
+	function getstyle() {
+	
+		var ul1=document.getElementById("ul1");
+		for (var i = 0; i < document.styleSheets.length; i++) {
+			var rules;
+			if (document.styleSheets[i].cssRules) {
+				rules = document.styleSheets[i].cssRules;
+			}
+			else {
+				rules = document.styleSheets[i].rules;
+			}
+			for (var j = 0; j < rules.length; j++) {
+				
+				if(rules[j] instanceof CSSStyleRule){
+					var calss1=rules[j].selectorText.replace("::before","");
+					calss1=calss1.replace(".","");
+					console.log(rules[j].selectorText)
+					var li=document.createElement("i");
+					li.innerHTML="<i class='iconfont "+ calss1+"'></i>";
+					ul1.appendChild(li);
+				
+				}
+			}
+		}
+	}
+	getstyle();
+	</script>
+</html>
