@@ -1,24 +1,68 @@
 # 后端项目请联系作者，注明来意
 
-![image](static/runImg/微信图片_20220808130219.jpg)
+<img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220808130219.jpg" width="200" height="200" alt="作者微信号"/><br/>
 
 # 运行效果：
 ## 首页
-![image](static/runImg/首页1.jpg)
-![image](static/runImg/首页2.jpg)
+
+<table>
+	<tr>
+		<td>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/首页1.jpg" width="300" height="650" alt="首页1"/>
+		</td>
+		<td>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/首页2.jpg" width="300" height="650" alt="首页2"/>
+		</td>
+	</tr>
+</table>
+
+
 ## 个人中心
-![image](static/runImg/个人中心.jpg)
+
+<img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/个人中心.jpg" width="300" height="650" alt="个人中心"/><br/>
+
 ## 志愿者服务
-![image](static/runImg/文明实践首页.jpg)
-![image](static/runImg/加入志愿者.jpg)
-![image](static/runImg/活动招募.jpg)
-![image](static/runImg/点单服务.jpg)
+
+<table>
+	<tr>
+		<td>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/文明实践首页.jpg" width="300" height="650" alt="文明实践首页"/>
+		</td>
+		<td>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/加入志愿者.jpg" width="300" height="650" alt="加入志愿者"/>
+		</td>
+    <td>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/活动招募.jpg" width="300" height="650" alt="活动招募"/>
+		</td>
+	</tr>
+  <tr>
+		<td>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/点单服务.jpg" width="300" height="650" alt="点单服务"/>
+		</td>
+    <td>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/文明实践栏目.jpg" width="300" height="650" alt="文明实践栏目"/>
+		</td>
+		
+	</tr>
+</table>
+
 
 ## 积分商城/融媒系统
-![image](static/runImg/文明实践栏目.jpg)
-![image](static/runImg/直播点播.jpg)
-![image](static/runImg/视频查看.jpg)
-![image](static/runImg/积分商城.jpg)
+<table>
+	<tr>
+		<td>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/直播点播.jpg" width="300" height="650" alt="直播点播"/>
+		</td>
+		<td>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/视频查看.jpg" width="300" height="650" alt="视频查看"/>
+		</td>
+    <td>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/积分商城.jpg" width="300" height="650" alt="积分商城"/>
+		</td>
+	</tr>
+</table>
+
+
 
 # 移动端 文件列表
 ~~~
