@@ -26,21 +26,21 @@
 <table>
 	<tr>
 		<td>
-        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/文明实践首页.jpg" width="300" height="650" alt="文明实践首页"/>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/文明实践首页.jpg" width="250" height="500" alt="文明实践首页"/>
 		</td>
 		<td>
-        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/加入志愿者.jpg" width="300" height="650" alt="加入志愿者"/>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/加入志愿者.jpg" width="250" height="500" alt="加入志愿者"/>
 		</td>
     <td>
-        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/活动招募.jpg" width="300" height="650" alt="活动招募"/>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/活动招募.jpg" width="250" height="500" alt="活动招募"/>
 		</td>
 	</tr>
   <tr>
 		<td>
-        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/点单服务.jpg" width="300" height="650" alt="点单服务"/>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/点单服务.jpg" width="250" height="500" alt="点单服务"/>
 		</td>
     <td>
-        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/文明实践栏目.jpg" width="300" height="650" alt="文明实践栏目"/>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/文明实践栏目.jpg" width="250" height="500" alt="文明实践栏目"/>
 		</td>
 		
 	</tr>
@@ -51,13 +51,13 @@
 <table>
 	<tr>
 		<td>
-        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/直播点播.jpg" width="300" height="650" alt="直播点播"/>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/直播点播.jpg" width="250" height="500" alt="直播点播"/>
 		</td>
 		<td>
-        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/视频查看.jpg" width="300" height="650" alt="视频查看"/>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/视频查看.jpg" width="250" height="500" alt="视频查看"/>
 		</td>
     <td>
-        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/积分商城.jpg" width="300" height="650" alt="积分商城"/>
+        <img src="https://github.com/zhushijie/wmsj-front-uniapp/blob/main/static/runImg/积分商城.jpg" width="250" height="500" alt="积分商城"/>
 		</td>
 	</tr>
 </table>
