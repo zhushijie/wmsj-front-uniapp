@@ -1,3 +1,25 @@
+# 后端项目请联系作者，注明来意
+
+![image](static/runImg/微信图片_20220808130219.jpg)
+
+# 运行效果：
+## 首页
+![image](static/runImg/首页1.jpg)
+![image](static/runImg/首页2.jpg)
+## 个人中心
+![image](static/runImg/个人中心.jpg)
+## 志愿者服务
+![image](static/runImg/文明实践首页.jpg)
+![image](static/runImg/加入志愿者.jpg)
+![image](static/runImg/活动招募.jpg)
+![image](static/runImg/点单服务.jpg)
+
+## 积分商城/融媒系统
+![image](static/runImg/文明实践栏目.jpg)
+![image](static/runImg/直播点播.jpg)
+![image](static/runImg/视频查看.jpg)
+![image](static/runImg/积分商城.jpg)
+
 # 移动端 文件列表
 ~~~
 .
@@ -108,10 +130,3 @@
 │   └── validate.js          输入验证，函数防抖
 └── vue.config.js            主配置
 
-后端项目请联系作者，注明来意
-
-	
-![image](url)
-
-
-运行效果：
